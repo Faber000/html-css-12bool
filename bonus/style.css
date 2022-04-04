@@ -1,0 +1,30 @@
+[class*="col-"] {
+    background-color: blue;
+    min-height: 50px;
+    border: 1px solid white;
+}
+
+[class*="col-"] [class*="col-"] {
+    background-color: lightgreen;
+    border: 1px solid white;
+}
+
+.letter-f [class*="col-"] {
+    background-color: lightgreen;
+}
+
+.letter-a [class*="col-"] {
+    background-color: coral;
+}
+
+.letter-b [class*="col-"] {
+    background-color: mediumvioletred;
+}
+
+.letter-i [class*="col-"] {
+    background-color: lightskyblue;
+}
+
+.letter-o [class*="col-"] {
+    background-color: aquamarine;
+}
